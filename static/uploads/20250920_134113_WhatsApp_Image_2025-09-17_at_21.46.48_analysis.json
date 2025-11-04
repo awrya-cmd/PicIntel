@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_134113_WhatsApp_Image_2025-09-17_at_21.46.48.jpeg",
+      "file_size": 13211,
+      "dimensions": "356x200",
+      "width": 356,
+      "height": 200,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.",
+    "analysis_timestamp": "2025-09-20T13:41:13.631575"
+  },
+  "reverse_search": {
+    "matches_found": 8,
+    "total_indexed": 401745,
+    "search_engines": [
+      "TinEye Simulation",
+      "Google Vision API Simulation",
+      "Yandex Images Simulation"
+    ],
+    "results": [
+      {
+        "url": "https://news.example.com/breaking-news-article",
+        "domain": "news.example.com",
+        "title": "Breaking News: Major Event Coverage",
+        "date": "2023-08-15",
+        "match_score": 0.982,
+        "image_size": "1920x1080",
+        "context": "News Article",
+        "first_found": "2023-12-15",
+        "confidence": "High"
+      },
+      {
+        "url": "https://socialmedia.com/viral-post/12345",
+        "domain": "socialmedia.com",
+        "title": "Viral Social Media Post",
+        "date": "2023-09-22",
+        "match_score": 0.922,
+        "image_size": "1080x1080",
+        "context": "Social Media",
+        "first_found": "2024-09-22",
+        "confidence": "High"
+      },
+      {
+        "url": "https://wiki.knowledge.org/article/subject-detail",
+        "domain": "wiki.knowledge.org",
+        "title": "Encyclopedia Article with Illustrations",
+        "date": "2023-05-11",
+        "match_score": 0.872,
+        "image_size": "800x600",
+        "context": "Educational Content",
+        "first_found": "2024-06-27",
+        "confidence": "Medium"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "356x200",
+      "file_size_kb": 12,
+      "feature_points": 824,
+      "brightness_level": 56.032261235955055,
+      "contrast_level": 44.23365388681955,
+      "color_channels": 3,
+      "uniqueness_score": 0.68,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u26a0 Lower uniqueness - possible stock photo or common image",
+        "\u2713 Complex image structure reduces likelihood of AI generation",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "search_timestamp": "2025-09-20T13:41:13.837317",
+    "search_duration": "0.9 seconds"
+  },
+  "filename": "20250920_134113_WhatsApp_Image_2025-09-17_at_21.46.48.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T13:41:13.837330"
+}

@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_185039_20151225_180509.jpg",
+      "file_size": 3713986,
+      "dimensions": "3264x2448",
+      "width": 3264,
+      "height": 2448,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {
+      "ImageWidth": "3264",
+      "ImageLength": "2448",
+      "ResolutionUnit": "2",
+      "ExifOffset": "226",
+      "Make": "SAMSUNG",
+      "Model": "GT-N7100",
+      "Software": "N7100XXUFNL1",
+      "Orientation": "6",
+      "DateTime": "2015:12:25 18:05:08",
+      "YCbCrPositioning": "1",
+      "XResolution": "72.0",
+      "YResolution": "72.0"
+    },
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T18:50:39.761513"
+  },
+  "reverse_search": {
+    "matches_found": 7,
+    "total_indexed": 7,
+    "search_engines": [
+      "Local pHash Index"
+    ],
+    "results": [
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_184445_20151225_180509.jpg",
+        "url": "/uploads/20250920_184445_20151225_180509.jpg",
+        "first_found": "2025-09-20T18:44:47.244995",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_174814_innoverse_poster_draft.png",
+        "url": "/uploads/20250920_174814_innoverse_poster_draft.png",
+        "first_found": "2025-09-20T17:48:16.500766",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_174924_innoverse_poster_draft.png",
+        "url": "/uploads/20250920_174924_innoverse_poster_draft.png",
+        "first_found": "2025-09-20T17:49:26.291344",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_180947_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_180947_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:09:50.705029",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_181036_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_181036_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:10:36.538507",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_181646_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181646_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:16:49.480939",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_181732_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_181732_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:17:33.129862",
+        "context": "Local Library"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "2448x3264",
+      "file_size_kb": 3626,
+      "feature_points": 1000,
+      "brightness_level": 115.57815115680668,
+      "contrast_level": 55.025801928723034,
+      "color_channels": 3,
+      "uniqueness_score": 0.76,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "highly_authentic",
+      "manipulation_probability": "very_low",
+      "quality_assessment": "excellent",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u25d0 Moderate feature complexity detected",
+        "\u2713 Natural brightness distribution",
+        "\u2713 Healthy contrast levels indicate natural imaging",
+        "\u2713 Normal compression characteristics",
+        "\u25d0 Non-standard aspect ratio - possible cropping or editing",
+        "\u25d0 Moderate uniqueness characteristics",
+        "\u2713 Technical metadata appears consistent"
+      ],
+      "technical_scores": {
+        "feature_density": 125.2,
+        "brightness_score": 115.57815115680668,
+        "contrast_score": 55.025801928723034,
+        "compression_ratio": 0.155,
+        "uniqueness_score": 0.76,
+        "manipulation_score": 0.15
+      }
+    },
+    "ai_detection": {
+      "ai_probability": 0.1,
+      "ai_probability_percentage": 10.0,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u26a0 Unusual compression ratio detected",
+        "\u2713 Natural image dimensions",
+        "\u2713 Natural color saturation levels",
+        "\u2713 Natural texture variation present"
+      ],
+      "analysis_method": "Simple Rule-Based Detection",
+      "models_checked": [
+        "Saturation Analysis",
+        "Dimension Check",
+        "Compression Analysis",
+        "Smoothness Check"
+      ],
+      "technical_details": {
+        "saturation_level": 62.8,
+        "smoothness_score": 363.0,
+        "file_size_kb": 3626,
+        "dimensions": "2448x3264"
+      },
+      "timestamp": "2025-09-20T18:50:43.198627"
+    },
+    "search_timestamp": "2025-09-20T18:50:43.202421",
+    "search_duration": "0.5 seconds"
+  },
+  "filename": "20250920_185039_20151225_180509.jpg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T18:50:43.202450"
+}

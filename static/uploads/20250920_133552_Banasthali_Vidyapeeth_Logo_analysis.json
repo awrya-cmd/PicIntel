@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_133552_Banasthali_Vidyapeeth_Logo.png",
+      "file_size": 105000,
+      "dimensions": "225x225",
+      "width": 225,
+      "height": 225,
+      "format": "PNG",
+      "mode": "RGBA",
+      "has_transparency": true
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.",
+    "analysis_timestamp": "2025-09-20T13:35:52.616147"
+  },
+  "reverse_search": {
+    "matches_found": 3,
+    "total_indexed": 453472,
+    "search_engines": [
+      "TinEye Simulation",
+      "Google Vision API Simulation",
+      "Yandex Images Simulation"
+    ],
+    "results": [
+      {
+        "url": "https://news.example.com/breaking-news-article",
+        "domain": "news.example.com",
+        "title": "Breaking News: Major Event Coverage",
+        "date": "2023-08-15",
+        "match_score": 0.959,
+        "image_size": "1920x1080",
+        "context": "News Article",
+        "first_found": "2024-04-18",
+        "confidence": "High"
+      },
+      {
+        "url": "https://blog.photography.net/portfolio/stunning-shots",
+        "domain": "photography.net",
+        "title": "Professional Photography Portfolio",
+        "date": "2023-07-03",
+        "match_score": 0.929,
+        "image_size": "2048x1536",
+        "context": "Photography Blog",
+        "first_found": "2024-06-26",
+        "confidence": "High"
+      },
+      {
+        "url": "https://socialmedia.com/viral-post/12345",
+        "domain": "socialmedia.com",
+        "title": "Viral Social Media Post",
+        "date": "2023-09-22",
+        "match_score": 0.899,
+        "image_size": "1080x1080",
+        "context": "Social Media",
+        "first_found": "2024-06-21",
+        "confidence": "Medium"
+      },
+      {
+        "url": "https://stock.photos.com/premium/nature-collection",
+        "domain": "stock.photos.com",
+        "title": "Premium Stock Photo Collection",
+        "date": "2023-06-18",
+        "match_score": 0.879,
+        "image_size": "4000x3000",
+        "context": "Stock Photography",
+        "first_found": "2024-08-14",
+        "confidence": "Medium"
+      },
+      {
+        "url": "https://wiki.knowledge.org/article/subject-detail",
+        "domain": "wiki.knowledge.org",
+        "title": "Encyclopedia Article with Illustrations",
+        "date": "2023-05-11",
+        "match_score": 0.849,
+        "image_size": "800x600",
+        "context": "Educational Content",
+        "first_found": "2024-07-11",
+        "confidence": "Medium"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "225x225",
+      "file_size_kb": 102,
+      "feature_points": 842,
+      "brightness_level": 136.9393975308642,
+      "contrast_level": 105.93373881204589,
+      "color_channels": 3,
+      "uniqueness_score": 0.91,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High image uniqueness suggests original content",
+        "\u2713 Complex image structure reduces likelihood of AI generation",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "search_timestamp": "2025-09-20T13:35:52.834661",
+    "search_duration": "2.2 seconds"
+  },
+  "filename": "20250920_133552_Banasthali_Vidyapeeth_Logo.png",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T13:35:52.834672"
+}

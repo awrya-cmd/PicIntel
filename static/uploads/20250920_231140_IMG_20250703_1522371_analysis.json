@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_231140_IMG_20250703_1522371.jpg",
+      "file_size": 3893837,
+      "dimensions": "4608x3456",
+      "width": 4608,
+      "height": 3456,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {
+      "ImageWidth": "4608",
+      "ImageLength": "3456",
+      "ResolutionUnit": "2",
+      "ExifOffset": "209",
+      "Make": "OnePlus",
+      "Model": "EB2101",
+      "Orientation": "1",
+      "YCbCrPositioning": "1",
+      "DateTime": "2025:07:03 15:22:37",
+      "XResolution": "72.0",
+      "YResolution": "72.0"
+    },
+    "gps_data": {
+      "latitude": 28.554943,
+      "longitude": 77.194864,
+      "google_maps_url": "https://maps.google.com/?q=28.554943,77.194864",
+      "coordinates_string": "28.554943, 77.194864"
+    },
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T23:11:40.808452"
+  },
+  "reverse_search": {
+    "matches_found": 7,
+    "total_indexed": 7,
+    "search_engines": [
+      "Local Database",
+      "Google Images"
+    ],
+    "results": [
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_180947_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_180947_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:09:50.705029",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_181646_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181646_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:16:49.480939",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_181820_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181820_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:18:22.742361",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_182327_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_182327_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:23:29.562186",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_182811_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_182811_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:28:13.889214",
+        "context": "Local Library"
+      },
+      {
+        "title": "Similar image on Getty Images",
+        "url": "https://gettyimages.com/example",
+        "source": "gettyimages.com",
+        "thumbnail": "",
+        "match_score": 0.94,
+        "domain": "gettyimages.com",
+        "context": "Google Images (Demo)",
+        "first_found": "2024-01-15"
+      },
+      {
+        "title": "Found on Shutterstock",
+        "url": "https://shutterstock.com/example",
+        "source": "shutterstock.com",
+        "thumbnail": "",
+        "match_score": 0.89,
+        "domain": "shutterstock.com",
+        "context": "Google Images (Demo)",
+        "first_found": "2023-12-03"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "4608x3456",
+      "file_size_kb": 3802,
+      "feature_points": 1000,
+      "brightness_level": 135.03312940558288,
+      "contrast_level": 59.00757794473679,
+      "color_channels": 3,
+      "uniqueness_score": 0.78,
+      "complexity_level": "low"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "highly_authentic",
+      "manipulation_probability": "very_low",
+      "quality_assessment": "excellent",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u25d0 Moderate feature complexity detected",
+        "\u2713 Natural brightness distribution",
+        "\u2713 Healthy contrast levels indicate natural imaging",
+        "\u2713 Standard aspect ratio - consistent with camera output",
+        "\u25d0 Moderate uniqueness characteristics",
+        "\u2713 Technical metadata appears consistent"
+      ],
+      "technical_scores": {
+        "feature_density": 62.8,
+        "brightness_score": 135.03312940558288,
+        "contrast_score": 59.00757794473679,
+        "compression_ratio": 0.081,
+        "uniqueness_score": 0.78,
+        "manipulation_score": 0.1
+      }
+    },
+    "ai_detection": {
+      "ai_probability": 0.2,
+      "ai_probability_percentage": 20.0,
+      "assessment": "likely_authentic",
+      "confidence": "Medium",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u2022 PicIntel Local Analysis: 20.0% AI probability",
+        "\u2022 Hugging Face AI Detector: 30.0% AI probability"
+      ],
+      "individual_results": [
+        {
+          "service": "PicIntel Local Analysis",
+          "ai_probability": 20.0,
+          "assessment": "likely_authentic",
+          "confidence": "High"
+        },
+        {
+          "service": "Hugging Face AI Detector",
+          "error": "('Connection aborted.', TimeoutError('The write operation timed out'))",
+          "ai_probability": 30.0,
+          "confidence": "Low",
+          "assessment": "error_occurred"
+        }
+      ],
+      "analysis_method": "Multi-API Consensus Analysis",
+      "models_checked": [
+        "PicIntel Local Analysis",
+        "Hugging Face AI Detector"
+      ],
+      "timestamp": "2025-09-20T23:12:19.149709"
+    },
+    "search_timestamp": "2025-09-20T23:12:19.150330",
+    "search_duration": "6.4 seconds"
+  },
+  "filename": "20250920_231140_IMG_20250703_1522371.jpg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T23:12:19.150385"
+}

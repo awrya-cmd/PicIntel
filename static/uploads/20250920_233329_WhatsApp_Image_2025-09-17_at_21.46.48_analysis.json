@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_233329_WhatsApp_Image_2025-09-17_at_21.46.48.jpeg",
+      "file_size": 13211,
+      "dimensions": "356x200",
+      "width": 356,
+      "height": 200,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T23:33:29.950117"
+  },
+  "reverse_search": {
+    "matches_found": 0,
+    "total_indexed": 0,
+    "search_engines": [
+      "AI Validation"
+    ],
+    "results": [],
+    "search_message": "No matches found in global databases - image appears to be unique",
+    "similarity_analysis": {
+      "dimensions": "356x200",
+      "file_size_kb": 12,
+      "feature_points": 824,
+      "brightness_level": 56.032261235955055,
+      "contrast_level": 44.23365388681955,
+      "color_channels": 3,
+      "uniqueness_score": 0.68,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "highly_authentic",
+      "manipulation_probability": "very_low",
+      "quality_assessment": "excellent",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High feature density suggests natural photography",
+        "\u2713 Natural brightness distribution",
+        "\u2713 Healthy contrast levels indicate natural imaging",
+        "\u2713 Standard aspect ratio - consistent with camera output",
+        "\u25d0 Moderate uniqueness characteristics",
+        "\u2713 Technical metadata appears consistent"
+      ],
+      "technical_scores": {
+        "feature_density": 11573.0,
+        "brightness_score": 56.032261235955055,
+        "contrast_score": 44.23365388681955,
+        "compression_ratio": 0.058,
+        "uniqueness_score": 0.68,
+        "manipulation_score": 0.0
+      }
+    },
+    "ai_detection": {
+      "ai_probability": 0.35,
+      "ai_probability_percentage": 35.0,
+      "assessment": "low_ai_probability",
+      "confidence": "High",
+      "risk_level": "CAUTION",
+      "indicators": [
+        "\u2022 PicIntel Local Analysis: 40.0% AI probability",
+        "\u2022 Hugging Face AI Detector: 30.0% AI probability"
+      ],
+      "individual_results": [
+        {
+          "service": "PicIntel Local Analysis",
+          "ai_probability": 40.0,
+          "assessment": "low_ai_probability",
+          "confidence": "Medium"
+        },
+        {
+          "service": "Hugging Face AI Detector",
+          "ai_probability": 30.0,
+          "confidence": "Low",
+          "assessment": "model_loading",
+          "note": "Model is loading, try again in a moment"
+        }
+      ],
+      "analysis_method": "Multi-API Consensus Analysis",
+      "models_checked": [
+        "PicIntel Local Analysis",
+        "Hugging Face AI Detector"
+      ],
+      "timestamp": "2025-09-20T23:33:34.135901"
+    },
+    "search_timestamp": "2025-09-20T23:33:34.136695",
+    "search_duration": "5.5 seconds"
+  },
+  "filename": "20250920_233329_WhatsApp_Image_2025-09-17_at_21.46.48.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T23:33:34.136760"
+}

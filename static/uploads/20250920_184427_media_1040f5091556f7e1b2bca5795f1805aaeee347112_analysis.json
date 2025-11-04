@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_184427_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+      "file_size": 73609,
+      "dimensions": "750x362",
+      "width": 750,
+      "height": 362,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T18:44:27.314445"
+  },
+  "reverse_search": {
+    "matches_found": 7,
+    "total_indexed": 7,
+    "search_engines": [
+      "Local pHash Index"
+    ],
+    "results": [
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_181036_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_181036_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:10:36.538507",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_181732_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_181732_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:17:33.129862",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_182313_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_182313_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:23:14.993453",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_182755_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_182755_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:27:57.296169",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_183230_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_183230_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:32:31.511724",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_184022_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_184022_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:40:22.586554",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20250920_180947_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_180947_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:09:50.705029",
+        "context": "Local Library"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "750x362",
+      "file_size_kb": 71,
+      "feature_points": 1000,
+      "brightness_level": 136.14858195211787,
+      "contrast_level": 46.99828632916995,
+      "color_channels": 3,
+      "uniqueness_score": 0.75,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High image uniqueness suggests original content",
+        "\u2713 Complex image structure reduces likelihood of AI generation",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "ai_detection": {
+      "ai_probability": 0.148,
+      "ai_probability_percentage": 14.8,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u2713 Natural noise distribution observed",
+        "\u2713 Normal frequency distribution patterns",
+        "\u2713 No significant AI artifacts found",
+        "\u2713 Natural pixel variation patterns",
+        "\u26a0 Atypical compression characteristics",
+        "\u2713 LOW RISK: Minimal AI generation indicators"
+      ],
+      "analysis_method": "Multi-Algorithm Neural Pattern Analysis",
+      "models_checked": [
+        "GANs Detection",
+        "Diffusion Models",
+        "StyleGAN",
+        "DALL-E",
+        "Midjourney",
+        "Stable Diffusion"
+      ],
+      "technical_details": {
+        "noise_score": 0.2,
+        "frequency_score": 0.1,
+        "artifact_score": 0.143,
+        "pixel_score": 0.1,
+        "compression_score": 0.3
+      },
+      "timestamp": "2025-09-20T18:44:27.914421"
+    },
+    "search_timestamp": "2025-09-20T18:44:27.915851",
+    "search_duration": "0.4 seconds"
+  },
+  "filename": "20250920_184427_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T18:44:27.915895"
+}

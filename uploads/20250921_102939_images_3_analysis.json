@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250921_102939_images_3.jfif",
+      "file_size": 6972,
+      "dimensions": "182x276",
+      "width": 182,
+      "height": 276,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "OCR not available (Tesseract not installed)",
+    "analysis_timestamp": "2025-09-21T10:29:39.227425"
+  },
+  "reverse_search": {
+    "matches_found": 2,
+    "total_indexed": 2,
+    "search_engines": [
+      "Google Images (Lens)"
+    ],
+    "results": [
+      {
+        "title": "Leonardo Da Vinci",
+        "url": "https://leonardoda-vinci.org/Mona-Lisa-La-Gioconda-C.-1503-05.html",
+        "source": "leonardoda-vinci.org",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQeG_02LJScmQ7TvDfqT6bvwGBP_GPZihq8Oqtp7FirKyzrVfBy",
+        "match_score": 0.9,
+        "domain": "",
+        "context": "Lens Visual Match",
+        "first_found": "Unknown"
+      },
+      {
+        "title": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+        "source": "Wikipedia",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT51bscMNBaMHgbipclNCZNxAweKxg5_GxgflUWz09WL7sxOUDq",
+        "match_score": 0.9,
+        "domain": "",
+        "context": "Lens Visual Match",
+        "first_found": "Unknown"
+      }
+    ],
+    "search_message": "Found 2 Google matches",
+    "similarity_analysis": {
+      "dimensions": "182x276",
+      "file_size_kb": 6,
+      "feature_points": 587,
+      "brightness_level": 60.57170727822902,
+      "contrast_level": 63.54002111373536,
+      "color_channels": 3,
+      "uniqueness_score": 0.74,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "✓ High feature density suggests natural imagery",
+        "✓ Natural brightness distribution",
+        "✓ Healthy contrast levels",
+        "◐ Atypical compression characteristics"
+      ]
+    },
+    "ai_detection": {
+      "ai_probability": 0.0,
+      "ai_probability_percentage": 0.0,
+      "assessment": "likely_authentic",
+      "confidence": "Medium",
+      "risk_level": "SAFE",
+      "indicators": [],
+      "analysis_method": "Local Heuristics",
+      "models_checked": [
+        "Saturation",
+        "Sharpness",
+        "Dimensions"
+      ],
+      "timestamp": "2025-09-21T10:29:45.589696"
+    },
+    "search_timestamp": "2025-09-21T10:29:45.589730",
+    "search_duration": "2.0 seconds"
+  },
+  "filename": "20250921_102939_images_3.jfif",
+  "original_filename": "images (3).jfif",
+  "analysis_complete": true,
+  "upload_time": "2025-09-21T10:29:45.589771"
+}

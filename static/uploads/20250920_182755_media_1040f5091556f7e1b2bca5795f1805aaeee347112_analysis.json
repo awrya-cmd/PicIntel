@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_182755_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+      "file_size": 73609,
+      "dimensions": "750x362",
+      "width": 750,
+      "height": 362,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T18:27:56.008683"
+  },
+  "reverse_search": {
+    "matches_found": 7,
+    "total_indexed": 7,
+    "search_engines": [
+      "Local pHash Index"
+    ],
+    "results": [
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_181036_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_181036_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:10:36.538507",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_181732_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_181732_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:17:33.129862",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_182313_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/20250920_182313_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T18:23:14.993453",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20250920_180947_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_180947_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:09:50.705029",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20250920_181646_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181646_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:16:49.480939",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20250920_181820_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181820_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:18:22.742361",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20250920_182327_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_182327_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:23:29.562186",
+        "context": "Local Library"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "750x362",
+      "file_size_kb": 71,
+      "feature_points": 1000,
+      "brightness_level": 136.14858195211787,
+      "contrast_level": 46.99828632916995,
+      "color_channels": 3,
+      "uniqueness_score": 0.75,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "highly_authentic",
+      "manipulation_probability": "very_low",
+      "quality_assessment": "excellent",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High feature density suggests natural photography",
+        "\u2713 Natural brightness distribution",
+        "\u2713 Healthy contrast levels indicate natural imaging",
+        "\u25d0 Non-standard aspect ratio - possible cropping or editing",
+        "\u25d0 Moderate uniqueness characteristics",
+        "\u2713 Technical metadata appears consistent"
+      ],
+      "technical_scores": {
+        "feature_density": 3683.2,
+        "brightness_score": 136.14858195211787,
+        "contrast_score": 46.99828632916995,
+        "compression_ratio": 0.089,
+        "uniqueness_score": 0.75,
+        "manipulation_score": 0.05
+      }
+    },
+    "ai_detection": {
+      "ai_probability": 0.33,
+      "ai_probability_percentage": 33.0,
+      "assessment": "uncertain",
+      "confidence": "Medium",
+      "risk_level": "CAUTION",
+      "indicators": [
+        "\u2713 Natural noise patterns - consistent with real photography",
+        "\ud83d\udea8 Atypical frequency patterns - consistent with synthetic generation",
+        "\u2713 Natural texture and color variation present",
+        "\u26a0 Unusual pixel correlation patterns"
+      ],
+      "analysis_method": "Multi-Algorithm Pattern Analysis (Enhanced)",
+      "models_checked": [
+        "Noise Analysis",
+        "Frequency Analysis",
+        "Artifact Detection",
+        "Pixel Patterns",
+        "Compression Analysis"
+      ],
+      "technical_details": {
+        "noise_score": 0.1,
+        "frequency_score": 0.8,
+        "artifact_score": 0.1,
+        "pixel_score": 0.3,
+        "compression_score": 0.6
+      },
+      "timestamp": "2025-09-20T18:27:57.583967"
+    },
+    "search_timestamp": "2025-09-20T18:27:57.584737",
+    "search_duration": "0.4 seconds"
+  },
+  "filename": "20250920_182755_media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T18:27:57.584766"
+}

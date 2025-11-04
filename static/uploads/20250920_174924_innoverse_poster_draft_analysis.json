@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_174924_innoverse_poster_draft.png",
+      "file_size": 1642656,
+      "dimensions": "1024x1536",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "INNOVERSE 2025 Step Through the Portal. Create Tomorrow. oe Team-based Open for all domains 25-26 Aug 2025 Audi 1 Nav Mandir Banasthaii Vioyapeth Enter the Innoverse. Innovate Without Boundaries.",
+    "analysis_timestamp": "2025-09-20T17:49:24.444712"
+  },
+  "reverse_search": {
+    "matches_found": 1,
+    "total_indexed": 1,
+    "search_engines": [
+      "Local pHash Index"
+    ],
+    "results": [
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_174814_innoverse_poster_draft.png",
+        "url": "/uploads/20250920_174814_innoverse_poster_draft.png",
+        "first_found": "2025-09-20T17:48:16.500766",
+        "context": "Local Library"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "1024x1536",
+      "file_size_kb": 1604,
+      "feature_points": 1000,
+      "brightness_level": 23.9352232615153,
+      "contrast_level": 47.27357080157512,
+      "color_channels": 3,
+      "uniqueness_score": 0.66,
+      "complexity_level": "low"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u26a0 Lower uniqueness - possible stock photo or common image",
+        "\u26a0 Simple image structure - easier to manipulate",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "ai_detection": {
+      "ai_probability": 0.185,
+      "ai_probability_percentage": 18.5,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u2713 Natural noise distribution observed",
+        "\u2713 Normal frequency distribution patterns",
+        "\u26a0 Some potential AI artifacts detected",
+        "\u2713 Natural pixel variation patterns",
+        "\u2713 Normal compression patterns",
+        "\u2713 LOW RISK: Minimal AI generation indicators"
+      ],
+      "analysis_method": "Multi-Algorithm Neural Pattern Analysis",
+      "models_checked": [
+        "GANs Detection",
+        "Diffusion Models",
+        "StyleGAN",
+        "DALL-E",
+        "Midjourney",
+        "Stable Diffusion"
+      ],
+      "technical_details": {
+        "noise_score": 0.1,
+        "frequency_score": 0.1,
+        "artifact_score": 0.217,
+        "pixel_score": 0.1,
+        "compression_score": 0.1
+      },
+      "timestamp": "2025-09-20T17:49:27.932545"
+    },
+    "search_timestamp": "2025-09-20T17:49:27.936916",
+    "search_duration": "0.5 seconds"
+  },
+  "filename": "20250920_174924_innoverse_poster_draft.png",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T17:49:27.936969"
+}

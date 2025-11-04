@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_144743_655c6883100932e9fcc96f7a_11.jpeg",
+      "file_size": 26770,
+      "dimensions": "450x450",
+      "width": 450,
+      "height": 450,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {
+      "ExifOffset": "26"
+    },
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T14:47:43.955667"
+  },
+  "reverse_search": {
+    "matches_found": 4,
+    "total_indexed": 396863,
+    "search_engines": [
+      "TinEye Simulation",
+      "Google Vision API Simulation",
+      "Yandex Images Simulation"
+    ],
+    "results": [
+      {
+        "url": "https://blog.photography.net/portfolio/stunning-shots",
+        "domain": "photography.net",
+        "title": "Professional Photography Portfolio",
+        "date": "2023-07-03",
+        "match_score": 0.9480000000000001,
+        "image_size": "2048x1536",
+        "context": "Photography Blog",
+        "first_found": "2025-01-07",
+        "confidence": "High"
+      },
+      {
+        "url": "https://socialmedia.com/viral-post/12345",
+        "domain": "socialmedia.com",
+        "title": "Viral Social Media Post",
+        "date": "2023-09-22",
+        "match_score": 0.918,
+        "image_size": "1080x1080",
+        "context": "Social Media",
+        "first_found": "2024-01-08",
+        "confidence": "High"
+      },
+      {
+        "url": "https://wiki.knowledge.org/article/subject-detail",
+        "domain": "wiki.knowledge.org",
+        "title": "Encyclopedia Article with Illustrations",
+        "date": "2023-05-11",
+        "match_score": 0.868,
+        "image_size": "800x600",
+        "context": "Educational Content",
+        "first_found": "2025-07-04",
+        "confidence": "Medium"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "450x450",
+      "file_size_kb": 26,
+      "feature_points": 969,
+      "brightness_level": 72.81995555555555,
+      "contrast_level": 54.1296401203036,
+      "color_channels": 3,
+      "uniqueness_score": 0.72,
+      "complexity_level": "medium"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High image uniqueness suggests original content",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "ai_detection": {
+      "ai_probability": 0.15,
+      "ai_probability_percentage": 15.0,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u2713 Natural brightness distribution detected",
+        "\u2713 Natural edge distribution",
+        "\u2713 Normal texture variation detected",
+        "\u26a0 Uniform color distribution detected"
+      ],
+      "analysis_method": "Statistical Pattern Analysis",
+      "models_checked": [
+        "GANs",
+        "Diffusion Models",
+        "StyleGAN",
+        "DALL-E Pattern"
+      ],
+      "timestamp": "2025-09-20T14:47:44.271044"
+    },
+    "search_timestamp": "2025-09-20T14:47:44.271213",
+    "search_duration": "0.9 seconds"
+  },
+  "filename": "20250920_144743_655c6883100932e9fcc96f7a_11.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T14:47:44.271221"
+}

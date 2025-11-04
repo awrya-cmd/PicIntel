@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_131612_d4.jpg",
+      "file_size": 99731,
+      "dimensions": "535x550",
+      "width": 535,
+      "height": 550,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information.",
+    "analysis_timestamp": "2025-09-20T13:16:12.378272"
+  },
+  "reverse_search": {
+    "matches_found": 7,
+    "total_indexed": 73278,
+    "search_engines": [
+      "TinEye Simulation",
+      "Google Vision API Simulation",
+      "Yandex Images Simulation"
+    ],
+    "results": [
+      {
+        "url": "https://blog.photography.net/portfolio/stunning-shots",
+        "domain": "photography.net",
+        "title": "Professional Photography Portfolio",
+        "date": "2023-07-03",
+        "match_score": 0.937,
+        "image_size": "2048x1536",
+        "context": "Photography Blog",
+        "first_found": "2023-10-26",
+        "confidence": "High"
+      },
+      {
+        "url": "https://socialmedia.com/viral-post/12345",
+        "domain": "socialmedia.com",
+        "title": "Viral Social Media Post",
+        "date": "2023-09-22",
+        "match_score": 0.907,
+        "image_size": "1080x1080",
+        "context": "Social Media",
+        "first_found": "2024-04-30",
+        "confidence": "High"
+      },
+      {
+        "url": "https://wiki.knowledge.org/article/subject-detail",
+        "domain": "wiki.knowledge.org",
+        "title": "Encyclopedia Article with Illustrations",
+        "date": "2023-05-11",
+        "match_score": 0.857,
+        "image_size": "800x600",
+        "context": "Educational Content",
+        "first_found": "2024-01-13",
+        "confidence": "Medium"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "535x550",
+      "file_size_kb": 97,
+      "feature_points": 1000,
+      "brightness_level": 227.5012064570943,
+      "contrast_level": 50.94626886440031,
+      "color_channels": 3,
+      "uniqueness_score": 0.83,
+      "complexity_level": "medium"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High image uniqueness suggests original content",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "search_timestamp": "2025-09-20T13:16:12.657104",
+    "search_duration": "1.2 seconds"
+  },
+  "filename": "20250920_131612_d4.jpg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T13:16:12.657114"
+}

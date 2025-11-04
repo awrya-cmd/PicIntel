@@ -1,0 +1,204 @@
+{% extends "base.html" %}
+{% block title %}PicIntel · Upload{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card shadow-sm">
+      <div class="card-header bg-white">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <h4 class="mb-0">Start Analysis</h4>
+            <small class="text-muted">Upload a photo to run metadata, GPS, OCR, reverse search, and AI detection</small>
+          </div>
+          <span class="badge bg-primary ai-chip"><i class="fas fa-lock me-1"></i> Local Processing</span>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div id="drop-zone" class="p-5 text-center border border-2 border-dashed rounded bg-light" style="cursor: pointer;">
+          <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
+          <h5 class="mb-1">Drag & drop your image here</h5>
+          <div class="text-muted">or click to browse from device</div>
+          <div class="mt-3">
+            <button type="button" class="btn btn-primary">Choose Image</button>
+          </div>
+
+          <form id="upload-form" enctype="multipart/form-data" style="display: none;">
+            {{ form.hidden_tag() }}
+            {{ form.file(id="file-input", accept="image/*", style="display: none;") }}
+          </form>
+        </div>
+
+        <div class="row mt-4 g-3">
+          <div class="col-12 col-md-4">
+            <div class="p-3 rounded border bg-white h-100">
+              <div class="fw-semibold">Supported</div>
+              <div class="text-muted small">PNG, JPG, JPEG, GIF, BMP, TIFF, WEBP</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="p-3 rounded border bg-white h-100">
+              <div class="fw-semibold">Limits</div>
+              <div class="text-muted small">Max 16 MB · One file at a time</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="p-3 rounded border bg-white h-100">
+              <div class="fw-semibold">Privacy</div>
+              <div class="text-muted small">No cloud APIs · Data stays local</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="upload-hint" class="alert alert-info mt-4 mb-0">
+          <i class="fas fa-lightbulb me-2"></i>
+          Tip: For GPS results, upload an original camera photo with location services enabled. For OCR, use clear, high-resolution text.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var dropZone = document.getElementById('drop-zone');
+  var fileInput = document.getElementById('file-input');
+  var overlay = document.getElementById('loadingOverlay');
+
+  function showOverlay(show) { if (overlay) overlay.style.display = show ? 'flex' : 'none'; }
+  dropZone.onclick = function() { fileInput.click(); };
+  fileInput.onchange = function(e) { if (e.target.files[0]) uploadFile(e.target.files[0]); };
+  dropZone.ondragover = function(e) { e.preventDefault(); dropZone.classList.add('border-primary', 'bg-white'); };
+  dropZone.ondragleave = function(e) { e.preventDefault(); dropZone.classList.remove('border-primary', 'bg-white'); };
+  dropZone.ondrop = function(e) { e.preventDefault(); dropZone.classList.remove('border-primary', 'bg-white'); if (e.dataTransfer.files[0]) uploadFile(e.dataTransfer.files[0]); };
+
+  function uploadFile(file) {
+    var formData = new FormData();
+    formData.append('file', file);
+    var csrf = document.querySelector('[name=csrf_token]');
+    if (csrf) formData.append('csrf_token', csrf.value);
+
+    showOverlay(true);
+    fetch('/upload', { method: 'POST', body: formData })
+      .then(r => r.json())
+      .then(data => {
+        showOverlay(false);
+        if (data.success) {
+          window.location.href = '/analysis/' + data.filename;
+        } else {
+          alert('Error: ' + (data.error || 'Unknown error'));
+        }
+      })
+      .catch(err => {
+        showOverlay(false);
+        alert('Upload failed: ' + err);
+      });
+  }
+});
+</script>
+
+<!-- Chatbot floating UI -->
+<style>
+  #chatbot-toggle {
+    position: fixed; right: 24px; bottom: 24px; z-index: 9999;
+    width: 56px; height: 56px; border-radius: 50%;
+    background: #3b82f6; color: #fff; display: flex;
+    align-items: center; justify-content: center; cursor: pointer;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.2); font-weight: 700; border: none;
+  }
+  #chatbot-panel {
+    position: fixed; right: 24px; bottom: 90px; z-index: 9999;
+    width: 320px; max-height: 60vh; border-radius: 12px;
+    background: #111827; color: #e5e7eb; display: none;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35); overflow: hidden; border: 1px solid #1f2937;
+  }
+  #chatbot-header {
+    padding: 10px 12px; background: #1f2937; display: flex; align-items: center; justify-content: space-between;
+  }
+  #chatbot-body {
+    padding: 12px; height: 300px; overflow-y: auto; background: #0b1220;
+  }
+  #chatbot-input { display: flex; gap: 8px; padding: 10px; background: #111827; border-top: 1px solid #1f2937; }
+  #chatbot-input input {
+    flex: 1; padding: 10px 12px; border-radius: 8px; border: 1px solid #374151; background: #0f172a; color: #e5e7eb;
+  }
+  #chatbot-input button {
+    padding: 10px 14px; border-radius: 8px; border: none; background: #10b981; color: #fff; font-weight: 600; cursor: pointer;
+  }
+  .msg { margin: 8px 0; line-height: 1.4; font-size: 14px; white-space: pre-wrap; }
+  .msg.user { text-align: right; color: #93c5fd; }
+  .msg.bot { text-align: left; color: #e5e7eb; }
+</style>
+
+<div id="chatbot-panel" aria-live="polite">
+  <div id="chatbot-header">
+    <div>PicIntel Assistant</div>
+    <button id="chatbot-close" style="background:none;border:none;color:#9ca3af;cursor:pointer;">✕</button>
+  </div>
+  <div id="chatbot-body">
+    <div class="msg bot">Hi! Ask about upload, reverse search, EXIF/GPS, or AI detection.</div>
+  </div>
+  <div id="chatbot-input">
+    <input id="chatbot-text" type="text" placeholder="Type a message..." />
+    <button id="chatbot-send">Send</button>
+  </div>
+</div>
+
+<button id="chatbot-toggle" title="Chat with assistant">💬</button>
+
+<script>
+(function() {
+  const panel = document.getElementById('chatbot-panel');
+  const toggle = document.getElementById('chatbot-toggle');
+  const closeBtn = document.getElementById('chatbot-close');
+  const body = document.getElementById('chatbot-body');
+  const input = document.getElementById('chatbot-text');
+  const send = document.getElementById('chatbot-send');
+
+  function appendMsg(text, who='bot') {
+    const div = document.createElement('div');
+    div.className = 'msg ' + who;
+    div.textContent = text;
+    body.appendChild(div);
+    body.scrollTop = body.scrollHeight;
+  }
+
+  toggle.addEventListener('click', () => {
+    panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
+    if (panel.style.display === 'block') input.focus();
+  });
+
+  closeBtn.addEventListener('click', () => { panel.style.display = 'none'; });
+
+  function sendMsg() {
+    const text = input.value.trim();
+    if (!text) return;
+    appendMsg(text, 'user');
+    input.value = '';
+    fetch('/chat', {
+      method: 'POST',
+      headers: {
+  'Content-Type': 'application/json',
+  'X-CSRFToken': document.querySelector('meta[name="csrf-token"]')?.content || ''
+},
+      body: JSON.stringify({ message: text })
+    })
+    .then(r => r.json())
+    .then(data => {
+      if (data.success && data.response && data.response.text) {
+        appendMsg(data.response.text, 'bot');
+      } else {
+        appendMsg('Sorry, something went wrong with the chat.', 'bot');
+      }
+    })
+    .catch(() => appendMsg('Network error. Please try again.', 'bot'));
+  }
+
+  send.addEventListener('click', sendMsg);
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendMsg(); });
+})();
+</script>
+{% endblock %}

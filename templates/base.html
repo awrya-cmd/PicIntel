@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}PicIntel{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <style>
+    :root {
+        --pi-bg: #0e1220;              /* base canvas (dark) */
+        --pi-surface: #151a2c;
+        --pi-glass: 255, 255, 255;     /* rgba() glass white */
+        --pi-text: #e8ecf1;
+        --pi-muted: #9aa4b2;
+        --pi-primary: #5b7cfa;         /* azure indigo */
+        --pi-primary-2: #4cc9f0;       /* azure accent */
+        --pi-accent: #22d1aa;          /* teal accent */
+        --pi-danger: #ff6b6b;
+        --pi-warning: #ffd166;
+        --pi-info: #62d2ff;
+
+        --pi-radius: 14px;
+        --pi-shadow: 0 10px 30px rgba(0,0,0,.25);
+        --pi-border: 1px solid rgba(255,255,255,.08);
+    }
+    [data-theme="light"] {
+        --pi-bg: #f4f6fb;
+        --pi-surface: #ffffff;
+        --pi-glass: 255, 255, 255;
+        --pi-text: #1a1d29;
+        --pi-muted: #6c7684;
+        --pi-primary: #3b59f7;
+        --pi-primary-2: #2fb4e8;
+        --pi-accent: #14b8a6;
+        --pi-danger: #e25555;
+        --pi-warning: #f1b90b;
+        --pi-info: #2aa7e1;
+
+        --pi-border: 1px solid rgba(10,14,30,.08);
+        --pi-shadow: 0 12px 30px rgba(16,24,40,.08);
+    }
+
+    /* Global */
+    body {
+        background:
+            radial-gradient(1200px 500px at -10% -20%, rgba(91,124,250,.20), transparent 60%),
+            radial-gradient(1000px 400px at 110% -10%, rgba(34,209,170,.18), transparent 60%),
+            linear-gradient(0deg, var(--pi-bg), var(--pi-bg));
+        color: var(--pi-text);
+        transition: background .4s ease, color .2s ease;
+    }
+    .navbar {
+        background: linear-gradient(135deg, rgba(91,124,250,.95), rgba(47,180,232,.95));
+        box-shadow: var(--pi-shadow);
+    }
+    .navbar .navbar-brand { letter-spacing: .4px; }
+    .brand-ring {
+        display:inline-flex; width:36px; height:36px; align-items:center; justify-content:center;
+        border-radius:50%;
+        background: radial-gradient(80% 120% at 30% 30%, rgba(255,255,255,.35), rgba(255,255,255,.1));
+        border: 1px solid rgba(255,255,255,.3);
+        margin-right: .5rem;
+    }
+
+    /* Cards / Glass */
+    .card {
+        border: var(--pi-border);
+        border-radius: var(--pi-radius);
+        backdrop-filter: saturate(180%) blur(8px);
+        background: rgba(var(--pi-glass), .85);
+        box-shadow: var(--pi-shadow);
+    }
+    .card-header {
+        border-bottom: var(--pi-border);
+        background: transparent;
+    }
+
+    /* Utilities */
+    .border-dashed { border-style: dashed!important; }
+    .muted { color: var(--pi-muted)!important; }
+    .ai-chip { font-size: 11px; letter-spacing: .4px; text-transform: uppercase; }
+
+    /* Pills / Tabs */
+    .nav-tabs .nav-link {
+        border: none; color: var(--pi-muted);
+    }
+    .nav-tabs .nav-link.active {
+        color: var(--pi-primary);
+        border-bottom: 2px solid var(--pi-primary);
+        background: transparent;
+    }
+
+    /* Buttons */
+    .btn-primary {
+        background: linear-gradient(135deg, var(--pi-primary), var(--pi-primary-2));
+        border: 0;
+        box-shadow: 0 6px 16px rgba(59, 89, 247, .35);
+    }
+    .btn-success { background: linear-gradient(135deg, #22c55e, #16a34a); border: 0; }
+    .btn-outline-primary { color: var(--pi-primary); border-color: var(--pi-primary); }
+    .btn-outline-primary:hover { background: var(--pi-primary); color: #fff; }
+
+    /* Badges */
+    .badge.bg-success { background: linear-gradient(135deg, #22c55e, #16a34a)!important; }
+    .badge.bg-warning { background: linear-gradient(135deg, #f59e0b, #d97706)!important; }
+    .badge.bg-danger { background: linear-gradient(135deg, #ef4444, #dc2626)!important; }
+    .badge.bg-info { background: linear-gradient(135deg, #2aa7e1, #3b59f7)!important; }
+
+    /* Tables */
+    .table { color: inherit; }
+    .table thead { background: rgba(0,0,0,.03); }
+    .table-hover tbody tr:hover { background: rgba(59,89,247,.06); }
+
+    /* Dropzone */
+    .dropzone {
+        background: rgba(255,255,255,.65);
+        border: 2px dashed rgba(59, 89, 247, .35)!important;
+        transition: all .25s ease;
+    }
+    [data-theme="dark"] .dropzone {
+        background: rgba(21,26,44,.6);
+        border-color: rgba(91,124,250,.45)!important;
+    }
+    .dropzone.hover {
+        transform: translateY(-1px); box-shadow: 0 10px 28px rgba(59, 89, 247, .25);
+        background: rgba(255,255,255,.85);
+    }
+
+    /* Loading overlay */
+    .loading-overlay {
+        position: fixed; inset: 0; background: rgba(10,14,30,.55);
+        display: none; align-items: center; justify-content: center; z-index: 1055;
+        backdrop-filter: blur(6px);
+    }
+    .loading-card { background: rgba(255,255,255,.9); color: #0f172a; border-radius: 12px; padding: 18px 22px; }
+
+    /* Footer */
+    footer { backdrop-filter: blur(6px); }
+
+    /* Smooth */
+    * { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <span class="brand-ring"><i class="fas fa-brain"></i></span>
+                <span class="fw-bold">PicIntel</span>
+            </a>
+
+            <div class="d-flex align-items-center ms-auto">
+                <span class="badge bg-light text-dark ai-chip me-3 d-none d-md-inline">
+                    <i class="fas fa-shield-halved me-1"></i> Forensic Suite
+                </span>
+                <button id="themeToggle" class="btn btn-sm btn-outline-light">
+                    <i class="fas fa-moon me-1"></i><span>Dark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="border-top py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span class="muted small">© {{ 2025 }} PicIntel · Advanced AI Image Intelligence</span>
+            <span class="muted small"><i class="fas fa-plug-circle-xmark me-1"></i>No cloud APIs · Data stays local</span>
+        </div>
+    </footer>
+
+    <!-- Loading overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-card shadow">
+            <div class="d-flex align-items-center">
+                <div class="spinner-border text-primary me-3" role="status"></div>
+                <div>
+                    <div class="fw-semibold">Analyzing image…</div>
+                    <div class="text-muted small">This usually takes a few seconds</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // Theme toggle with persistence
+    (function() {
+        const root = document.documentElement;
+        const btn = document.getElementById('themeToggle');
+        const saved = localStorage.getItem('pi-theme');
+        if (saved) root.setAttribute('data-theme', saved);
+
+        function syncButton() {
+            const mode = root.getAttribute('data-theme') || 'light';
+            btn.innerHTML = mode === 'dark'
+              ? '<i class="fas fa-sun me-1"></i><span>Light</span>'
+              : '<i class="fas fa-moon me-1"></i><span>Dark</span>';
+        }
+        syncButton();
+
+        btn.addEventListener('click', function() {
+            const current = root.getAttribute('data-theme') || 'light';
+            const next = current === 'light' ? 'dark' : 'light';
+            root.setAttribute('data-theme', next);
+            localStorage.setItem('pi-theme', next);
+            syncButton();
+        });
+    })();
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
+
+
+
+
+

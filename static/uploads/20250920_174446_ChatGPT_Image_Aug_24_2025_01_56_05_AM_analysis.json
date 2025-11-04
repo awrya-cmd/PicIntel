@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_174446_ChatGPT_Image_Aug_24_2025_01_56_05_AM.png",
+      "file_size": 1879635,
+      "dimensions": "1024x1536",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "INNOVERSE 2025 Step Through the Portal. Create Tomorrow. ge Team-based Open for all domains 15-16 March 2025 Audi 1 Nav Mandir Audi 1 Nav Mandir Enter the Innoverse. Innovate Without Boundaries.",
+    "analysis_timestamp": "2025-09-20T17:44:46.468179"
+  },
+  "reverse_search": {
+    "matches_found": 8,
+    "total_indexed": 8,
+    "search_engines": [
+      "Local pHash Index"
+    ],
+    "results": [
+      {
+        "match_score": 1.0,
+        "domain": "local",
+        "title": "20250920_174446_ChatGPT_Image_Aug_24_2025_01_56_05_AM.png",
+        "url": "/uploads/20250920_174446_ChatGPT_Image_Aug_24_2025_01_56_05_AM.png",
+        "first_found": "2025-09-20T17:44:48.329464",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20151225_180509.jpg",
+        "url": "/uploads/20151225_180509.jpg",
+        "first_found": "2025-09-20T17:32:25.568435",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "image.jfif",
+        "url": "/uploads/image.jfif",
+        "first_found": "2025-09-20T17:32:25.722854",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5625,
+        "domain": "local",
+        "title": "media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "url": "/uploads/media_1040f5091556f7e1b2bca5795f1805aaeee347112.jpeg",
+        "first_found": "2025-09-20T17:32:25.907549",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5,
+        "domain": "local",
+        "title": "IMG_20250703_152237[1].jpg",
+        "url": "/uploads/IMG_20250703_152237[1].jpg",
+        "first_found": "2025-09-20T17:32:25.881484",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5,
+        "domain": "local",
+        "title": "20250920_173305_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_173305_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T17:33:09.102062",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5,
+        "domain": "local",
+        "title": "20250920_173959_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_173959_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T17:40:02.432282",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.4688,
+        "domain": "local",
+        "title": "655c6883100932e9fcc96f7a_11.jpeg",
+        "url": "/uploads/655c6883100932e9fcc96f7a_11.jpeg",
+        "first_found": "2025-09-20T17:32:25.588411",
+        "context": "Local Library"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "1024x1536",
+      "file_size_kb": 1835,
+      "feature_points": 1000,
+      "brightness_level": 26.484891255696613,
+      "contrast_level": 46.95732196590309,
+      "color_channels": 3,
+      "uniqueness_score": 0.66,
+      "complexity_level": "low"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "likely_authentic",
+      "manipulation_probability": "low",
+      "quality_assessment": "good",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u26a0 Lower uniqueness - possible stock photo or common image",
+        "\u26a0 Simple image structure - easier to manipulate",
+        "\u2713 Rich feature content suggests natural photography"
+      ]
+    },
+    "ai_detection": {
+      "ai_probability": 0.185,
+      "ai_probability_percentage": 18.5,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u2713 Natural noise distribution observed",
+        "\u2713 Normal frequency distribution patterns",
+        "\u26a0 Some potential AI artifacts detected",
+        "\u2713 Natural pixel variation patterns",
+        "\u2713 Normal compression patterns",
+        "\u2713 LOW RISK: Minimal AI generation indicators"
+      ],
+      "analysis_method": "Multi-Algorithm Neural Pattern Analysis",
+      "models_checked": [
+        "GANs Detection",
+        "Diffusion Models",
+        "StyleGAN",
+        "DALL-E",
+        "Midjourney",
+        "Stable Diffusion"
+      ],
+      "technical_details": {
+        "noise_score": 0.1,
+        "frequency_score": 0.1,
+        "artifact_score": 0.217,
+        "pixel_score": 0.1,
+        "compression_score": 0.1
+      },
+      "timestamp": "2025-09-20T17:44:49.891659"
+    },
+    "search_timestamp": "2025-09-20T17:44:49.894180",
+    "search_duration": "0.5 seconds"
+  },
+  "filename": "20250920_174446_ChatGPT_Image_Aug_24_2025_01_56_05_AM.png",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T17:44:49.894204"
+}

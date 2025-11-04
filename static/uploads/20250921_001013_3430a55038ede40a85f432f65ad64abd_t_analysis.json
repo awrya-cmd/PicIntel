@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250921_001013_3430a55038ede40a85f432f65ad64abd_t.jpeg",
+      "file_size": 13769,
+      "dimensions": "254x340",
+      "width": 254,
+      "height": 340,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {},
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-21T00:10:13.746717"
+  },
+  "reverse_search": {
+    "matches_found": 0,
+    "total_indexed": 0,
+    "search_engines": [
+      "AI Validation"
+    ],
+    "results": [],
+    "search_message": "No matches found in global databases - image appears to be unique",
+    "similarity_analysis": {
+      "dimensions": "254x340",
+      "file_size_kb": 13,
+      "feature_points": 920,
+      "brightness_level": 148.09401343214452,
+      "contrast_level": 93.4837696544274,
+      "color_channels": 3,
+      "uniqueness_score": 0.9,
+      "complexity_level": "high"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "highly_authentic",
+      "manipulation_probability": "very_low",
+      "quality_assessment": "excellent",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High feature density suggests natural photography",
+        "\u2713 Natural brightness distribution",
+        "\u25d0 Moderate contrast characteristics",
+        "\u25d0 Non-standard aspect ratio - possible cropping or editing",
+        "\u2713 High image uniqueness - likely original content",
+        "\u2713 Technical metadata appears consistent"
+      ],
+      "technical_scores": {
+        "feature_density": 10653.1,
+        "brightness_score": 148.09401343214452,
+        "contrast_score": 93.4837696544274,
+        "compression_ratio": 0.051,
+        "uniqueness_score": 0.9,
+        "manipulation_score": 0.05
+      }
+    },
+    "ai_detection": {
+      "ai_probability": 0.2,
+      "ai_probability_percentage": 20.0,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u2022 PicIntel Local Analysis: 10.0% AI probability",
+        "\u2022 Hugging Face AI Detector: 30.0% AI probability"
+      ],
+      "individual_results": [
+        {
+          "service": "PicIntel Local Analysis",
+          "ai_probability": 10.0,
+          "assessment": "likely_authentic",
+          "confidence": "High"
+        },
+        {
+          "service": "Hugging Face AI Detector",
+          "ai_probability": 30.0,
+          "confidence": "Low",
+          "assessment": "model_loading",
+          "note": "Model is loading, try again in a moment"
+        }
+      ],
+      "analysis_method": "Multi-API Consensus Analysis",
+      "models_checked": [
+        "PicIntel Local Analysis",
+        "Hugging Face AI Detector"
+      ],
+      "timestamp": "2025-09-21T00:10:17.770305"
+    },
+    "search_timestamp": "2025-09-21T00:10:17.771290",
+    "search_duration": "5.3 seconds"
+  },
+  "filename": "20250921_001013_3430a55038ede40a85f432f65ad64abd_t.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-21T00:10:17.771427"
+}

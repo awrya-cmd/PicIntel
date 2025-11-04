@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "basic_info": {
+      "filename": "20250920_194428_655c6883100932e9fcc96f7a_11.jpeg",
+      "file_size": 26770,
+      "dimensions": "450x450",
+      "width": 450,
+      "height": 450,
+      "format": "JPEG",
+      "mode": "RGB",
+      "has_transparency": false
+    },
+    "exif_data": {
+      "ExifOffset": "26"
+    },
+    "gps_data": {},
+    "ocr_text": "No text detected",
+    "analysis_timestamp": "2025-09-20T19:44:28.399147"
+  },
+  "reverse_search": {
+    "matches_found": 7,
+    "total_indexed": 7,
+    "search_engines": [
+      "Local pHash Index"
+    ],
+    "results": [
+      {
+        "match_score": 0.5938,
+        "domain": "local",
+        "title": "20250920_185521_artlist-generative-media-style-207f7bc0-5141-4427-aeaf-c5b308d749a5-1b41ca2d-c96a-4e4a-9261-9767b8971239.jpeg",
+        "url": "/uploads/20250920_185521_artlist-generative-media-style-207f7bc0-5141-4427-aeaf-c5b308d749a5-1b41ca2d-c96a-4e4a-9261-9767b8971239.jpeg",
+        "first_found": "2025-09-20T18:55:23.414018",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_180947_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_180947_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:09:50.705029",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_181646_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181646_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:16:49.480939",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_181820_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_181820_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:18:22.742361",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_182327_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_182327_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:23:29.562186",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_182811_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_182811_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:28:13.889214",
+        "context": "Local Library"
+      },
+      {
+        "match_score": 0.5312,
+        "domain": "local",
+        "title": "20250920_183249_IMG_20250703_1522371.jpg",
+        "url": "/uploads/20250920_183249_IMG_20250703_1522371.jpg",
+        "first_found": "2025-09-20T18:32:52.051020",
+        "context": "Local Library"
+      }
+    ],
+    "similarity_analysis": {
+      "dimensions": "450x450",
+      "file_size_kb": 26,
+      "feature_points": 969,
+      "brightness_level": 72.81995555555555,
+      "contrast_level": 54.1296401203036,
+      "color_channels": 3,
+      "uniqueness_score": 0.72,
+      "complexity_level": "medium"
+    },
+    "authenticity_indicators": {
+      "overall_authenticity": "highly_authentic",
+      "manipulation_probability": "very_low",
+      "quality_assessment": "excellent",
+      "metadata_consistency": "consistent",
+      "technical_analysis": [
+        "\u2713 High feature density suggests natural photography",
+        "\u2713 Natural brightness distribution",
+        "\u2713 Healthy contrast levels indicate natural imaging",
+        "\u26a0 Heavily compressed - possible quality degradation",
+        "\u2713 Standard aspect ratio - consistent with camera output",
+        "\u25d0 Moderate uniqueness characteristics",
+        "\u2713 Technical metadata appears consistent"
+      ],
+      "technical_scores": {
+        "feature_density": 4785.2,
+        "brightness_score": 72.81995555555555,
+        "contrast_score": 54.1296401203036,
+        "compression_ratio": 0.044,
+        "uniqueness_score": 0.72,
+        "manipulation_score": 0.1
+      }
+    },
+    "ai_detection": {
+      "ai_probability": 0.2,
+      "ai_probability_percentage": 20.0,
+      "assessment": "likely_authentic",
+      "confidence": "High",
+      "risk_level": "SAFE",
+      "indicators": [
+        "\u26a0 Unusual compression ratio detected",
+        "\u2713 Natural image dimensions",
+        "\u25d0 Elevated color saturation",
+        "\u2713 Natural texture variation present"
+      ],
+      "analysis_method": "Simple Rule-Based Detection",
+      "models_checked": [
+        "Saturation Analysis",
+        "Dimension Check",
+        "Compression Analysis",
+        "Smoothness Check"
+      ],
+      "technical_details": {
+        "saturation_level": 121.3,
+        "smoothness_score": 211.8,
+        "file_size_kb": 26,
+        "dimensions": "450x450"
+      },
+      "timestamp": "2025-09-20T19:44:29.066412"
+    },
+    "search_timestamp": "2025-09-20T19:44:29.066507",
+    "search_duration": "0.2 seconds"
+  },
+  "filename": "20250920_194428_655c6883100932e9fcc96f7a_11.jpeg",
+  "analysis_complete": true,
+  "upload_time": "2025-09-20T19:44:29.066580"
+}
