@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="PicIntel Banner" width="100%">
+  <img src="banner.png" alt="PicIntel Banner" width="100%">
 </p>
 
 # 🛰️ PicIntel
