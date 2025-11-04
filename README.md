@@ -47,3 +47,11 @@ pip install -r requirements.txt
 
 # Run the app
 python app.py
+
+👩‍💻 Team HackOps
+
+Arushi Gupta • Arya Rai • Nimisha Goyal • Ritwiza Bhardwaj
+
+📜 License
+
+MIT License
