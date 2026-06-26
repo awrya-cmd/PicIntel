@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="bannernew.png" alt="PicIntel Banner" width="100%">
-</p>
-
 # 🛰️ PicIntel
 
 **AI-powered Image Intelligence for the Digital Age**
