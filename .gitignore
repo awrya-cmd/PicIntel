@@ -20,7 +20,12 @@ Thumbs.db
 
 # Database
 *.db
+*.sqlite
 *.sqlite3
+
+# Uploads
+uploads/
+static/uploads/
 
 # Build
 dist/
